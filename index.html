@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Está é minha primeira vez!</h1>
+    <p class="p1">Eu falo olá para quem?</p>
+
+    <p class="p2">
+      <button class="btn1" onclick="alert('Olá Mundo');">Clique aqui</button>
+      <button class="btn2" onclick="alert('Tu é besta?');">
+        Não clique aqui
+      </button>
+    </p>
+    <p class="p3">
+      <button class="btn3" onclick="abrirgithub()">
+        Talvez você deva clicar aqui!
+      </button>
+    </p>
+    <p class="p4">
+      <button class="btn4" onclick="abrirlinkedin()">
+        Talvez você deva clicar aqui também...
+      </button>
+      <script>
+        function abrirgithub() {
+          window.open("https://github.com/Dede22dev", "_blank");
+        }
+
+        function abrirlinkedin() {
+          window.open(
+            "https://www.linkedin.com/in/deyvid-pasa-maier-308329276/",
+            "_blank"
+          );
+        }
+      </script>
+    </p>
+  </body>
+</html>
